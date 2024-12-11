@@ -211,7 +211,6 @@ with st.expander("System Architecture & FlutterFlow Integration"):
     5. Cloud Functions monitor reminders, sending push notifications via FCM, integrated into FlutterFlow.
     6. AI drafts: A Custom Action requests GPT-based drafts via a Cloud Function. Firestore stores the draft, and FlutterFlow’s UI displays it instantly for final tweaks.
     
-    This architecture ensures efficient development, clear separation of concerns, and a highly responsive user experience.
     """)
 
 with st.expander("1. Authentication & Secure Email Linking 🔑"):
